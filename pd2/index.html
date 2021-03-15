@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>    
-  <link type="text/css" rel="stylesheet" href="style.css">
-  <link type="text/css" rel="stylesheet" href="css/fontello.css">
+  <link type="text/css" rel="stylesheet" href="style.css">  
 
   <title>Front end developer Portfolio</title>
 
@@ -13,6 +12,10 @@
 </head>
 
 <body>
+
+
+
+  
 
 
   <div class="topnav">
@@ -34,6 +37,47 @@
   </div>
 
   <main>
+    <div class="gameContainer" id="">
+      <article>        
+          <header>
+            <h1 id="">
+              Game
+            </h1>            
+          </header>        
+        <section>
+          <table>
+            <tr>
+              <td class="cell" id="0"></td>
+              <td class="cell" id="1"></td>
+              <td class="cell" id="2"></td>
+            </tr>
+          
+            <tr>
+              <td class="cell" id="3"></td>
+              <td class="cell" id="4"></td>
+              <td class="cell" id="5"></td>
+            </tr>
+          
+            <tr>
+              <td class="cell" id="6"></td>
+              <td class="cell" id="7"></td>
+              <td class="cell" id="8"></td>
+            </tr>
+          </table>
+          
+          <div class="endgame">
+            <div class="text"></div>
+          </div>
+          <button onClick="startGame()">Replay</button>
+          <button id="ai">VS AI</button>
+          <button id="pvp">PVP</button>
+          <button style="display: none;" id="x">X</button>
+          <button style="display: none;" id="o">O</button>
+        </section>
+      </article>
+    </div>
+    <hr/>
+
     <div class="about" id="h1">
       <article>        
           <header>
@@ -121,8 +165,8 @@
     </div>
   </footer>
 
-
-
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+<script src="main.js" ></script>
 </body>
 
 </html>
